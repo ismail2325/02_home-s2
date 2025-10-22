@@ -475,12 +475,14 @@ hr {
  /* <!-- ===============navbar section ends=============== --> */
 
 
-@media (max-width:768px){
+@media only screen and (max-width: 768px){
   /* <!-- ===============header section starts=============== --> */
 
 .section-1 {
     height: 678px;
     background-size: cover;
+    overflow: hidden;
+    position: relative;
 }
 
 .icon-img .icon-2 {
@@ -523,7 +525,7 @@ hr {
 
 .header-body .header-title {
     padding-top: 55px;
-    font-size: 50px;
+    font-size: 45px;
 }
 
 .header-body .header-text {
@@ -782,6 +784,74 @@ svg.svg-inline--fa.fa-table-columns {
 }
 
 
+@media only screen and (max-width: 600px){
+
+ /* <!-- ===============header section starts=============== --> */
+
+ .section-1 {
+    height: 670px;
+    background-size: cover;
+}
+
+.icon-img .icon-7 {
+    top: 440px;
+    margin-right: 10px;
+    width: 85px;
+    position: absolute;
+}
+
+.xipper-landing {
+    background-position: -5px 105px, 442px 361px, 540px 515px;
+}
+ /* <!-- ===============xipper-landing section starts=============== --> */
+ /* <!-- ===============markating section starts=============== --> */
+
+ .side-content-2 {
+    margin-top: -40px;
+}
+ /* ===============video section starts=============== */
+ /* ===============Work shedule section starts=============== */
+ /* <!-- ===============card section starts=============== --> */
+
+ .card-section .card {
+    margin-bottom: 10px;
+    width: 390px;
+    margin: 0 auto;
+}
+.card-body {
+    padding: 40px 20px;
+}
+.card-body h3 {
+    left: 330px;
+    top: 28px;
+}
+
+.card-body h3 {
+    left: 230px;
+    top: 28px;
+}
+
+.card-body ul {
+    padding-left: 15px;
+}
+
+.card-title {
+    padding-left: 15px;
+}
+
+.card-body a {
+    margin: 0px 30px;
+}
+ /* <!-- ===============feedback section starts=============== --> */
+ /* <!-- ===============get app section starts=============== --> */
+ /* <!-- <!===============footer section  starts here===============> --> */
+/* <!-- <!===============footer section  starts here===============> --> */
+
+
+
+}
+
+
 
 
 /*
@@ -821,6 +891,16 @@ svg.svg-inline--fa.fa-table-columns {
 	margin-top: 40px;
 	margin-left: 87px;
 }
+ /* ===============Work shedule section starts=============== */
+ .one .title::after {
+    width: 120px;
+    margin: 62px -63px;
+}
+.one-1 .title::after {
+    width: 120px;
+    margin: 62px -63px;
+}
+
 
 }
 
@@ -830,7 +910,7 @@ svg.svg-inline--fa.fa-table-columns {
                start media screen and (max-width:480px) 
 ################
 */
-@media (max-width:480px){
+@media only screen and (max-width: 480px){
 
  /* <!-- ===============header section starts=============== --> */
 .section-1 {
@@ -840,7 +920,7 @@ svg.svg-inline--fa.fa-table-columns {
 
 .header-body .header-title {
     padding-top: 50px;
-    font-size: 45px;
+    font-size: 39px;
 }
 
 .header-body .header-text {
@@ -990,7 +1070,7 @@ img.logo-1 {
 ################
 */
 
-@media (max-width:360px){
+@media only screen and (max-width: 360px){
 
   body{
     overflow-x: hidden;
@@ -1040,8 +1120,8 @@ img.logo-1 {
     background-size: cover;
 }
 
- .header-body .header-title {
-    padding-top: 40px;
+.header-body .header-title {
+    padding-top: 50px;
     font-size: 33px;
 }
 

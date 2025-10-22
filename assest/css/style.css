@@ -20,6 +20,10 @@ nav {
     padding-top: 50px;
 }
 
+.section-1{
+    overflow: hidden;
+}
+
 .section-1 .logo a{
     font-size: 36px;
     color: #fff;
